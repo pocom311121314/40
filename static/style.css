@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #FFFFFF;
+}
+.navgap {
+  padding-top: 50px;
+}
+hr.dashed {
+  border-top: 5px dashed #FFFFFF;
+}
+.filter-buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.filter-button {
+  border: 1px solid #000000;
+  border-radius: 3em;
+  background-color: #D2D2D2;
+  color: #000000;
+  cursor: pointer;
+  padding: 5px;
+}
+.active {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+#product-cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  justify-content: center;
+}
+.product-card {
+    width: 185px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d2d2d2;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-container img {
+  max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+}
+.container {
+  padding-top: 1em;
+  color: #110f29;
+}
+.hide {
+  display: none;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #131A22;
+  position: fixed;
+  width: 100%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #d2d2d2;
+  color: black;
+}
+.topnav a.active {
+  background-color: #FFFFFF;
+  color: rgb(0, 0, 0);
+}
+.topnav .search-container a{
+  float: right;
+  
+  font-size: 20px;
+  padding: 10px 15px;
+}
+.topnav input[type=text] {
+  padding: 1px;
+  margin-top: 9px;
+  margin-right: 1px;
+  font-size: 20px;
+  border: none;
+  width: 26%;
+  float: right;
+  border-radius: 20px;
+}
+.topnav .search-container #search {
+  cursor: pointer;
+}
+.topnav .right-nav  {
+  float: right;
+}
+.topnav .right-nav a {
+  padding: 10px 15px;
+  font-size: 20px;
+}
+.product-tag {
+  display: none;
+}
+/* Bordered form */
+.login-pad {
+  padding-left: 35%;
+  padding-right: 35%;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+.cart-buttons {
+  display: grid;
+  grid-template-columns: auto ;
+  padding: 20px;
+}
+.cart-button {
+  
+  border-radius: 10px;
+  background-color: #D2D2D2;
+  color: #000000;
+  cursor: pointer;
+  padding: 15px;
+}
+/* Full-width inputs */
+.login-container input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* Set a style for all buttons */
+.login-container button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+/* Add a hover effect for buttons */
+.login-container button:hover {
+  opacity: 0.8;
+}
+/* Add padding to containers */
+.login-container {
+  padding: 16px;
+}
+/* The "Forgot password" text */
+.login-container .psw {
+  float: right;
+  padding-top: 16px;
+  display: block;
+}
+@media screen and (max-width: 720px) {
+  #product-cards {
+    grid-template-columns: auto auto;
+  }
+  
+  .topnav .left-nav  {
+    display: none;
+  }
+  .topnav .right-nav {
+    display: none;
+  }
+  .carousel iframe {
+    height: 80px;
+  }
+  .topnav input[type=text] {
+    font-size: 20px;
+    width: 40%;
+  }
+  .filter-buttons {
+    grid-template-columns: auto auto auto;
+  }
+  .login-pad {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

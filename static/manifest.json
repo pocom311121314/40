@@ -1,0 +1,43 @@
+{
+  "name": "DC-SHOP",
+  "short_name": "DC-SHOP",
+  "start_url": "../index-mobile.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#131A22",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/static/image/index-01.png",
+      "type": "image/png", "sizes": "72x72"
+    },
+    {
+      "src": "/static/image/index-01.png",
+      "type": "image/png", "sizes": "96x96"
+    },
+    {
+      "src": "/static/image/index-01.png",
+      "type": "image/png","sizes": "128x128"
+    },
+    {
+      "src": "/static/image/index-01.png",
+      "type": "image/png", "sizes": "144x144"
+    },
+    {
+      "src": "/static/image/index-01.png",
+      "type": "image/png", "sizes": "152x152"
+    },
+    {
+      "src": "/static/image/index-01.png",
+      "type": "image/png", "sizes": "192x192"
+    },
+    {
+      "src": "/static/image/index-01.png",
+      "type": "image/png", "sizes": "384x384"
+    },
+    {
+      "src": "/static/image/index-01.png",
+      "type": "image/png", "sizes": "512x512"
+    }
+  ]
+}
