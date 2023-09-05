@@ -181,7 +181,15 @@ form {
   #product-cards {
     grid-template-columns: auto auto;
   }
-  
+  .topnav a {
+    font-size: 25px;
+  }
+  .topnav .search-container a{
+    font-size: 25px;
+  }
+  .topnav input[type=text] {
+    font-size: 25px;
+  }
   .topnav .left-nav  {
     display: none;
   }
