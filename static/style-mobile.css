@@ -97,7 +97,7 @@ hr.dashed {
   padding: 10px 15px;
 }
 .topnav input[type=text] {
-  padding: 1px;
+  padding: 1px 20px;
   margin-top: 9px;
   margin-right: 1px;
   font-size: 25px;
