@@ -39,7 +39,6 @@ hr.dashed {
   grid-gap: 10px;
 }
 .product-card {
-    
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -56,13 +55,8 @@ hr.dashed {
   max-height: 200px;
 }
 .container {
-  
-  
   max-width: 160px;
   max-height: 300px;
-}
-.container product-title {
- 
 }
 .hide {
   display: none;
