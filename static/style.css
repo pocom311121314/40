@@ -29,6 +29,7 @@ hr.dashed {
   color: #000000;
   cursor: pointer;
   padding: 5px;
+  width: 180px;
 }
 .active {
   background-color: #FFFFFF;
@@ -43,7 +44,7 @@ hr.dashed {
   
 }
 .product-card {
-  width: 200px;
+  width: 180px;
   padding: 5px;
   border-radius: 5px;
   cursor: pointer;
