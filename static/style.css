@@ -16,8 +16,8 @@ hr.dashed {
   border-top: 5px dashed #FFFFFF;
 }
 .filter-buttons {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   padding: 10px;
   justify-content: center;
   grid-gap: 10px;
@@ -29,7 +29,7 @@ hr.dashed {
   background-color: #D2D2D2;
   color: #000000;
   cursor: pointer;
-  padding: 5px;
+  padding: 15px;
   
 }
 .active {
@@ -207,6 +207,9 @@ form {
   }
   .filter-buttons {
     grid-template-columns: auto auto auto;
+  }
+  .filter-button {
+    padding: 5px;
   }
   .login-pad {
     padding-left: 5%;
