@@ -227,7 +227,7 @@ hr.dashed {
 }
 @media screen and (max-width: 380px) {
   .product-card {
-    width: 150px;
+    width: 170px;
   }
 }
 @media screen and (max-width: 240px) {
@@ -235,7 +235,7 @@ hr.dashed {
     grid-template-columns: auto;
   }
   .product-card {
-    width: 100px;
+    width: 160px;
   }
   .filter-buttons {
     grid-template-columns: auto auto;
