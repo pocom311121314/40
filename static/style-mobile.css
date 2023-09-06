@@ -39,7 +39,7 @@ hr.dashed {
   grid-gap: 10px;
 }
 .product-card {
-    max-width: 170px;
+    max-width: auto;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
