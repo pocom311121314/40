@@ -52,10 +52,7 @@ hr.dashed {
     flex-direction: column;
 }
 .image-container img {
-  width: 100px;
-  height: 100px;
-  
-    
+  width: 150px;
 }
 .container {
   padding-top: 1em;
