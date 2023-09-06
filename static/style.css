@@ -39,7 +39,7 @@ hr.dashed {
   grid-template-columns: auto auto auto auto auto auto;
   padding: 10px;
   grid-gap: 10px;
-  width: 100%;
+  
 }
 .product-card {
   width: 200px;
