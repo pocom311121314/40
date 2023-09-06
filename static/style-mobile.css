@@ -39,7 +39,7 @@ hr.dashed {
   grid-gap: 10px;
 }
 .product-card {
-    max-width: auto;
+    
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -52,9 +52,10 @@ hr.dashed {
     flex-direction: column;
 }
 .image-container img {
-  max-width: 100%;
-    object-fit: contain;
-    height: 10em;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+    
 }
 .container {
   padding-top: 1em;
