@@ -138,8 +138,9 @@ form {
   display: grid;
   grid-template-columns: auto ;
   padding: 10px;
-  width: 100%;
+  
   grid-gap: 10px;
+  justify-content: center;
 }
 .cart-button {
   
