@@ -522,6 +522,8 @@ for (let i of db.products) {
   //img element
   let image2 = document.createElement("img");
   image2.setAttribute("src", i.image);
+  image2.setAttribute("max-width", "150px");
+  image2.setAttribute("height", "200px");
   image1.appendChild(image2);
   imgContainer.appendChild(image1);
   card.appendChild(imgContainer);
