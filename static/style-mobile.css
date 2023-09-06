@@ -226,14 +226,18 @@ hr.dashed {
   display: block;
 }
 @media screen and (max-width: 380px) {
+  .product-card {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 240px) {
   #product-cards {
     grid-template-columns: auto;
   }
   .product-card {
-    width: 150px;
+    width: 100px;
   }
   .filter-buttons {
     grid-template-columns: auto auto;
   }
 }
-
