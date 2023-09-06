@@ -545,7 +545,7 @@ for (let i of db.products) {
   container.appendChild(tag);
   //rating function
   let button2 = document.createElement("div");
-  button2.classList.add("button1-container");
+  button2.classList.add("image-container");
   //
   let rating1 = document.createElement("a");
   rating1.setAttribute("href", i.purchase);
@@ -554,7 +554,6 @@ for (let i of db.products) {
   rating2.setAttribute("src", i.rating);
   rating2.setAttribute("height", "30px");
   rating2.setAttribute("width", "145px");
-  rating2.setAttribute("padding-left", "20px");
   rating1.appendChild(rating2); 
   button2.appendChild(rating1);
   container.appendChild(button2);
