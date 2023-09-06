@@ -47,7 +47,7 @@ hr.dashed {
   justify-content: center;
 }
 .product-card {
-    width: 180px;
+    width: 200px;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -182,7 +182,7 @@ form {
     grid-template-columns: auto auto;
   }
   .product-card {
-    width: 170px;
+    width: 180px;
 }
   .topnav input[type=text] {
     font-size: 25px;

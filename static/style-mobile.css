@@ -44,7 +44,7 @@ hr.dashed {
   justify-content: center;
 }
 .product-card {
-    width: 180px;
+    width: 170px;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -227,7 +227,7 @@ hr.dashed {
 }
 @media screen and (max-width: 380px) {
   .product-card {
-    width: 170px;
+    width: 160px;
 }
 }
 
