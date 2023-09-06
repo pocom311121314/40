@@ -53,6 +53,7 @@ hr.dashed {
 }
 .image-container img {
   width: 150px;
+  object-fit: contain;
 }
 .container {
   padding-top: 1em;
