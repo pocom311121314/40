@@ -20,6 +20,7 @@ hr.dashed {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
+  width: 100%;
 }
 .filter-button {
   border: 1px solid #000000;
