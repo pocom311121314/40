@@ -16,8 +16,8 @@ hr.dashed {
   border-top: 5px dashed #FFFFFF;
 }
 .filter-buttons {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  display: flex;
+  flex-direction: column;
   padding: 10px;
   justify-content: center;
   grid-gap: 10px;
