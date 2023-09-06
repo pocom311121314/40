@@ -74,7 +74,7 @@ let db = {
     },
     {
         id : "8",
-        title : "boAt New AirPods Pro",
+        title : "boAt New AirPods Pro with deep bass bluetooth 5.1",
         tag : "headphones headphone deep bass bluetooth wireless boat green all",
         category: "199",
         rating: "static/image/data/05.png",
@@ -114,7 +114,7 @@ let db = {
     },
     {
         id : "12",
-        title : "boAt New AirPods Pro",
+        title : "boAt New AirPods Pro with deep bass bluetooth 5.1",
         tag : "headphones headphone deep bass bluetooth boat black all",
         category: "5k",
         rating: "static/image/data/05.png",
@@ -125,7 +125,7 @@ let db = {
     {
         id : "13",
         title : "boAt Comfort Pro",
-        tag : "headphones headphone deep bass bluetooth boat black all",
+        tag : "headphones headphone deep bass boat black all",
         category: "5k",
         rating: "static/image/data/05.png",
         price : "3999",
@@ -135,7 +135,7 @@ let db = {
     {
         id : "14",
         title : "boAt Comfort Pro",
-        tag : "headphones headphone deep bass bluetooth boat white all",
+        tag : "headphones headphone deep bass boat white all",
         category: "5k",
         rating: "static/image/data/05.png",
         price : "3999",
