@@ -35,7 +35,7 @@ hr.dashed {
 }
 #product-cards {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   padding-left: 10px;
@@ -226,19 +226,4 @@ hr.dashed {
   padding-top: 16px;
   display: block;
 }
-@media screen and (max-width: 380px) {
-  .product-card {
-    width: 170px;
-  }
-}
-@media screen and (max-width: 350px) {
-  #product-cards {
-    grid-template-columns: auto;
-  }
-  .product-card {
-    width: 160px;
-  }
-  .filter-buttons {
-    grid-template-columns: auto auto;
-  }
-}
+
