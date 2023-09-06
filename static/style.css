@@ -42,10 +42,11 @@ hr.dashed {
   width: 100%;
 }
 .product-card {
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #d2d2d2;
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #d2d2d2;
 }
 .image-container {
     display: flex;
