@@ -44,7 +44,7 @@ hr.dashed {
   justify-content: center;
 }
 .product-card {
-    width: 100%;
+    
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -229,6 +229,8 @@ hr.dashed {
   #product-cards {
     grid-template-columns: auto;
   }
-
+  .filter-buttons {
+    grid-template-columns: auto auto;
+  }
 }
 
