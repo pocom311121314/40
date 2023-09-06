@@ -553,7 +553,7 @@ for (let i of db.products) {
   let rating2 = document.createElement("img");
   rating2.setAttribute("src", i.rating);
   rating2.setAttribute("height", "30px");
-  rating2.setAttribute("width", "150px");
+  rating2.setAttribute("width", "145px");
   rating1.appendChild(rating2); 
   button2.appendChild(rating1);
   container.appendChild(button2);
