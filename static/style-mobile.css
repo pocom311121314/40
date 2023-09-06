@@ -60,7 +60,8 @@ hr.dashed {
   color: #110f29;
 }
 .container product-title {
-
+  max-width: 150px;
+  max-height: 200px;
 }
 .hide {
   display: none;
