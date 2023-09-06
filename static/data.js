@@ -522,8 +522,6 @@ for (let i of db.products) {
   //img element
   let image2 = document.createElement("img");
   image2.setAttribute("src", i.image);
-  image2.setAttribute("width", "100%");
-  image2.setAttribute("height", "200px");
   image1.appendChild(image2);
   imgContainer.appendChild(image1);
   card.appendChild(imgContainer);
@@ -547,7 +545,7 @@ for (let i of db.products) {
   container.appendChild(tag);
   //rating function
   let button2 = document.createElement("div");
-  button2.classList.add("image-container");
+  button2.classList.add("rating-container");
   //
   let rating1 = document.createElement("a");
   rating1.setAttribute("href", i.purchase);
