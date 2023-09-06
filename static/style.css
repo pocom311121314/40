@@ -21,6 +21,7 @@ hr.dashed {
   padding: 10px;
   justify-content: center;
   grid-gap: 10px;
+  width: 100%;
 }
 .filter-button {
   border: 1px solid #000000;
