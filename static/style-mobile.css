@@ -44,7 +44,7 @@ hr.dashed {
   justify-content: center;
 }
 .product-card {
-    
+    width: 180px;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -225,9 +225,12 @@ hr.dashed {
   padding-top: 16px;
   display: block;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   #product-cards {
     grid-template-columns: auto;
+  }
+  .product-card {
+    width: 150px;
   }
   .filter-buttons {
     grid-template-columns: auto auto;
