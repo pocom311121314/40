@@ -575,7 +575,7 @@ for (let i of db.products) {
   
   //
   //let button1 = document.createElement("div");
-  //button1.classList.add("button1-container");
+  //button1.classList.add("image-container");
   //
   //let favourite1 = document.createElement("a");
   //favourite1.setAttribute("href", i.purchase);
