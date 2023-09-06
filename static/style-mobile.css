@@ -54,12 +54,15 @@ hr.dashed {
 .image-container img {
   width: 100px;
   height: 100px;
-  object-fit: contain;
+  
     
 }
 .container {
   padding-top: 1em;
   color: #110f29;
+}
+.container product-title {
+
 }
 .hide {
   display: none;
