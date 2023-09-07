@@ -29,7 +29,7 @@ hr.dashed {
   background-color: #D2D2D2;
   color: #000000;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   
 }
 .active {
@@ -58,9 +58,9 @@ hr.dashed {
     flex-direction: column;
 }
 .image-container img {
-  max-width: 100%;
-    object-fit: contain;
-    height: 10em;
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
 }
 .container {
   max-width: 160px;
@@ -128,28 +128,29 @@ hr.dashed {
   display: none;
 }
 /* Bordered form */
-.login-pad {
-  padding-left: 35%;
-  padding-right: 35%;
-}
+
 form {
   border: 3px solid #f1f1f1;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 .cart-buttons {
-  display: grid;
-  grid-template-columns: auto ;
-  padding: 10px;
-  
-  grid-gap: 10px;
-  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.cart-button {
-  
+.cart-buttons button {
   border-radius: 10px;
   background-color: #D2D2D2;
   color: #000000;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
 }
 /* Full-width inputs */
 .login-container input[type=text], input[type=password] {
@@ -211,8 +212,5 @@ form {
   .filter-button {
     padding: 5px;
   }
-  .login-pad {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
+  
 }
