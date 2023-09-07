@@ -1,11 +1,11 @@
-const dc = "dcshopv3"
+const dc = "dcstore"
 const assets = [
   "/",
   "/index-mobile.html",
 ]
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(dcstore).then(cache => {
       cache.addAll(assets)
     })
   )
